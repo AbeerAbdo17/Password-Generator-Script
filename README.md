@@ -1,21 +1,16 @@
-# Simple Calculator
+# Password Guessing Script
 
 ## Overview
-This Python script implements a simple calculator with basic arithmetic operations: addition, subtraction, multiplication, and division. It prompts the user to select an operation and then input two numbers to perform the calculation.
+This Python script is designed for educational purposes to demonstrate password guessing techniques using common password lists and iterative length-based guesses. It attempts to guess a target password specified in the script or provided by the user.
 
 ## Contributors
 - Eilaf Adel
 - Abeer Abdo
 
-## Operations Supported
-1. Addition (+)
-2. Subtraction (-)
-3. Multiplication (*)
-4. Division (/)
-
 ## Features
-- Error handling for division by zero.
-- Option to perform multiple calculations in a single session.
+- Password guessing using common password lists and iterative length-based guesses.
+- Checks against a predefined list of common passwords.
+- Ability to add discovered passwords to the common password list.
 
 ## Usage
 1. Ensure you have Python installed on your system.
@@ -24,4 +19,4 @@ This Python script implements a simple calculator with basic arithmetic operatio
 
 ### Running the Script
 ```bash
-python3 simple_calculator.py
+python3 password_guessing_script.py
