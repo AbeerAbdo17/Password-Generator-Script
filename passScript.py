@@ -4,12 +4,16 @@ common_passwords = ["password", "123456", "qwerty", "letmein", "football", "welc
 
 
 def passwords(length):
+    #function scop
+
     characters = "abcdefghijklmnopqrstuvwxyz0123456789"
     for password in itertools.product(characters, repeat=length):
         yield "".join(password)
 
 
 def check_and_add_password(password):
+    #function scop
+
     global common_passwords
     if password not in common_passwords:
         common_passwords.append(password)
@@ -17,6 +21,8 @@ def check_and_add_password(password):
 
 
 def main():
+    #function scop
+
     target_password = "secret"
     found = False
 
