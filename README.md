@@ -19,4 +19,4 @@ This Python script is designed for educational purposes to demonstrate password 
 
 ### Running the Script
 ```bash
-python3 password_guessing_script.py
+python3 passScript.py
